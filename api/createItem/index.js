@@ -1,4 +1,4 @@
-import { createItem } from '../../database.js';
+import { createItem } from '../database.js';
 
 export default async function (context, req) {
   if (req.method !== 'POST') {
