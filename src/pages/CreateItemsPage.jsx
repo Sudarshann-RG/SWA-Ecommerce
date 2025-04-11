@@ -11,7 +11,7 @@ const CreateItemsPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await fetch('/api/createItem', {
+      await fetch('/api/items', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
