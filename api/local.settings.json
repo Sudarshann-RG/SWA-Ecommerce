@@ -2,7 +2,8 @@
     "IsEncrypted": false,
     "Values": {
       "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-      "FUNCTIONS_WORKER_RUNTIME": "node"
+      "FUNCTIONS_WORKER_RUNTIME": "node",
+      "COSMOS_DB_CONNECTION_STRING": "AccountEndpoint=https://sample-db-instance.documents.azure.com:443/;AccountKey=XhzckI8yc8zViDJypLZEZSn2zdxBKvcrztRgobyrawZ2m6Aq3R9xvikMopCafWf08geNt65h3VExACDb7eoStg==;"
     }
   }
   
