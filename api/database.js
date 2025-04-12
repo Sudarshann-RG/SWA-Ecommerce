@@ -1,6 +1,4 @@
 import { CosmosClient } from '@azure/cosmos';
-import dotenv from 'dotenv';
-dotenv.config();
 
 const client = new CosmosClient(process.env.COSMOS_DB_CONNECTION_STRING);
 
